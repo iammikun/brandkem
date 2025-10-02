@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import classes from "./Who.module.css";
-import who from "../../../../Images/who.jpg";
+import who from "../../../../images/who.jpg";
 import { Link } from "react-router-dom";
 import AOS from "aos";
 import "aos/dist/aos.css";

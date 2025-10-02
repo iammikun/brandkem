@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
 import classes from "./Partners.module.css";
-import coca from "../../../../images/coca.jpg";
-import samsung from "../../../../images/samsung.jpg";
-import foam from "../../../../images/foam.jpg";
+import coca from "../../../../Images/coca.jpg";
+import samsung from "../../../../Images/samsung.jpg";
+import foam from "../../../../Images/foam.jpg";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
