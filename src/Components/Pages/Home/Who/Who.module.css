@@ -1,0 +1,80 @@
+.whoContainer {
+  width: 100%;
+  margin-top: 3rem;
+  background-color: rgb(244, 244, 244);
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  align-items: center;
+}
+
+.whoWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+  gap: 3rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.whoText,
+.img {
+  width: 50%;
+}
+
+.whoText h3 {
+  color: purple;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.whoText h1 {
+  font-size: 2.2rem;
+  margin-top: 15px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.whoText p {
+  font-size: 1rem;
+  line-height: 25px;
+  margin-top: 10px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.whoLink {
+  width: 30%;
+}
+
+.whoBtn {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  background-color: purple;
+  border: none;
+  margin: 0 auto;
+  padding: 15px 35px;
+  color: #fff;
+  margin-top: 30px;
+  border-radius: 5px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.whoBtn a {
+  color: #fff;
+  width: 100%;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 1024px) {
+  .whoWrapper {
+    width: 90%;
+  }
+}

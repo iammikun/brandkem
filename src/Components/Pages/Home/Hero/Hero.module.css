@@ -1,0 +1,32 @@
+.heroContainer {
+  width: 100%;
+  background-image: url(../../../../Images/hero.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-color: rgb(104, 40, 104);
+  background-blend-mode: darken;
+  height: 90vh;
+}
+
+.heroWrapper {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 18rem;
+  height: 80vh;
+  font-size: 3rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.heroWrapper h1 {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+@media screen and (max-width: 1024px) {
+  .heroWrapper {
+    width: 90%;
+  }
+}

@@ -1,0 +1,60 @@
+.servicesContainer {
+  margin-top: 7rem;
+  width: 100%;
+}
+
+.serviceWrapper {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.serviceWrapper h3 {
+  color: purple;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.serviceBox {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 3rem;
+  justify-content: center;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.serviceBox .box {
+  background-color: #fff;
+  box-shadow: 20px 20px 24px rgb(12 12 12 / 8%);
+  height: 100% !important;
+  padding: 30px 15px 34px;
+}
+
+.icon {
+  color: rgb(52, 40, 52);
+  font-size: 3rem;
+}
+
+.box h4 {
+  font-size: 1.3rem;
+  color: purple;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+.box p {
+  font-size: 1rem;
+  line-height: 25px;
+  margin-top: 15px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 1024px) {
+  .serviceWrapper {
+    width: 90%;
+  }
+}

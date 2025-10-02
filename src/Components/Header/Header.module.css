@@ -1,0 +1,74 @@
+/* Header.module.css */
+.headerContainer {
+  width: 100%;
+  padding: 1rem 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  transition: background-color 0.3s ease, padding 0.3s ease,
+    box-shadow 0.3s ease;
+  z-index: 1000;
+  background-color: transparent; /* Default background */
+  box-shadow: none; /* No shadow initially */
+}
+
+.headerWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.headerWrapper a {
+  text-decoration: none;
+  color: white; /* Default link color */
+  font-weight: 400;
+  font-style: normal;
+  font-family: "Poppins", sans-serif;
+}
+
+.headerWrapper ul {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+
+.headerWrapper ul li {
+  list-style: none;
+}
+
+.headerWrapper ul li a {
+  text-decoration: none;
+  color: white; /* Default link color */
+  font-weight: 400;
+  font-style: normal;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 1px;
+}
+
+/* Scrolled state */
+.scrolled {
+  background-color: white; /* Change to white on scroll */
+  padding: 0.5rem 0; /* Adjust padding for compact look on scroll */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow on scroll */
+}
+
+.scrolled .headerWrapper a,
+.scrolled .headerWrapper ul li a {
+  color: black; /* Change link color to black on scroll */
+}
+
+@media screen and (max-width: 1024px) {
+  .headerWrapper {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .headerWrapper ul {
+    display: none;
+  }
+}

@@ -1,0 +1,38 @@
+.contentContainer {
+  width: 100%;
+  margin-top: 5rem;
+}
+
+.contentWrapper {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.contentWrapper h3 {
+  text-align: center;
+  text-align: center;
+  color: purple;
+  font-size: 1.7rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.contentWrapper h4 {
+  color: purple;
+  font-size: 1.7rem;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin-top: 3rem;
+}
+
+.contentWrapper p {
+  font-size: 1rem;
+  line-height: 30px;
+  margin-top: 15px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  width: 95%;
+  opacity: 0.7;
+}

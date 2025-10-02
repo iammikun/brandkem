@@ -1,0 +1,48 @@
+.teamContainer {
+  width: 100%;
+  margin-top: 9rem;
+  text-align: center;
+}
+
+.teamWrapper {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.teamWrapper h3 {
+  color: purple;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-bottom: 2.2rem;
+}
+
+.team {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.team img {
+  width: 50%;
+  cursor: pointer;
+}
+
+.button {
+  margin-top: 20px;
+  background-color: purple;
+  color: #fff;
+  border: none;
+  padding: 13px 40px;
+  border-radius: 5px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .teamWrapper {
+    width: 90%;
+  }
+}

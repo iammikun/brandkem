@@ -1,0 +1,23 @@
+.partnersContainer {
+  width: 100%;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.partnersWrapper h3 {
+  text-align: center;
+  align-items: center;
+  color: purple;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.partners {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 3rem;
+  gap: 6rem;
+}

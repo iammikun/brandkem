@@ -1,0 +1,26 @@
+import React from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import './App.css';
+import Header from './Components/Header/Header.jsx';
+import HomePage from "./Pages/Home/HomePage.jsx";
+import AboutPage from "./Pages/About/AboutPage";
+import Footer from "./Components/Footer/Footer.jsx"
+import TeamPage from "./Pages/TeamPage/TeamPage.jsx"
+
+function App() {
+  return (
+    <BrowserRouter>
+      <div className="App">
+        <Header />
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/about-us" element={<AboutPage />} />
+          <Route path="/our-team" element={<TeamPage />} />
+        </Routes>
+        <Footer />
+      </div>
+    </BrowserRouter>
+  );
+}
+
+export default App;
