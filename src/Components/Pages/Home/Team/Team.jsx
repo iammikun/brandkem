@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import classes from "./Team.module.css";
 import ourTeam from "../../../../images/ourTeam.jpg";
 import { Link } from "react-router-dom";
-import wale from "../../../../Images/wale.jpg";
+import wale from "../../../../images/wale.jpg";
 import teamMember1 from "../../../../images/teamMember1.jpg";
 import teamMember2 from "../../../../images/teamMember2.jpg";
 import teamMember3 from "../../../../images/teamMember3.jpg";
