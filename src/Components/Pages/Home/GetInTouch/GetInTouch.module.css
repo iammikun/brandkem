@@ -3,8 +3,14 @@
   width: 100%;
 }
 
+.GetInTouchWrapper {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  margin: 0 auto;
+}
+
 .GetInTouchWrapper h3 {
-  text-align: center;
   color: purple;
   font-size: 1.7rem;
   font-family: "Poppins", sans-serif;
@@ -12,20 +18,19 @@
   font-weight: 400;
 }
 
-.GetInTouchWrapper P {
-  text-align: center;
-  font-size: 1rem;
-  line-height: 20px;
-  margin-top: 10px;
+.GetInTouchWrapper .bold {
+  font-size: 2rem;
   font-family: "Poppins", sans-serif;
-  font-weight: 400;
+  margin-top: 10px;
+  line-height: 20px;
   letter-spacing: 1px;
+  font-weight: bold;
 }
 
 .form {
   width: 50%;
   margin: 0 auto;
-  margin-top: 1rem;
+  /* margin-top: 1rem; */
 }
 
 form {

@@ -12,11 +12,10 @@ const GetInTouch = () => {
   return (
     <div className={classes.GetInTouchContainer}>
       <div className={classes.GetInTouchWrapper} data-aos="fade-down">
-        <h3>Get In Touch</h3>
-        <p>
-          Looking to partner with BrandKemistry on your next experiential
-          activation?
-        </p>
+        <div>
+          <h3>Get In Touch</h3>
+          <p className={classes.bold}>Let's Work Together</p>
+        </div>
         <div className={classes.form}>
           <form action="">
             <input type="text" placeholder="Full Name" />
