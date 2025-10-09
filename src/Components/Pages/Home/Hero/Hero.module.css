@@ -12,9 +12,8 @@
 .heroWrapper {
   width: 80%;
   margin: 0 auto;
-  padding-top: 18rem;
+  padding-top: 15rem;
   height: 80vh;
-  font-size: 3rem;
   font-family: "Poppins", sans-serif;
 }
 
@@ -23,6 +22,39 @@
   font-family: "Poppins", sans-serif;
   font-weight: 800;
   font-style: normal;
+  width: 70%;
+  font-size: 4rem;
+}
+
+.heroWrapper p {
+  color: rgb(185, 185, 185);
+  font-family: "Poppins", sans-serif;
+  font-size: 1.1rem;
+}
+
+.whoBtn {
+  background-color: rgb(186, 184, 184);
+  border: 1px solid purple;
+  border: none;
+  margin: 0 auto;
+  padding: 15px 35px;
+  color: #000;
+  margin-top: 30px;
+  border-radius: 5px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  cursor: pointer;
+  font-size: 1rem;
+  border: 1px solid rgb(42, 42, 42);
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.whoBtn:hover {
+  transition: background-color 0.5s ease;
+  border: 1px solid purple;
+  color: #fff;
+  background-color: purple;
 }
 
 @media screen and (max-width: 1024px) {

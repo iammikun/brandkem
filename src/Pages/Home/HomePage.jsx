@@ -11,10 +11,10 @@ const HomePage = () => {
     <div>
       <div>
         <Hero />
-        <Partners />
-        <Who />
         <Services />
+        <Who />
         <Team />
+        <Partners />
         <GetInTouch />
       </div>
     </div>

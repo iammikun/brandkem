@@ -14,33 +14,36 @@ const Services = () => {
   return (
     <div className={classes.servicesContainer} data-aos="fade-down">
       <div className={classes.serviceWrapper}>
-        <h3>Our Services</h3>
+        <h3>What We Do.</h3>
+        <p></p>
         <div className={classes.serviceBox}>
           <div className={classes.box}>
             <MdOutlineSupport className={classes.icon} />
-            <h4>Support System</h4>
+            <h4>First Class Experience</h4>
             <p>
-              We assert ourselves as the new SUPPORT systems for marketing and
-              marketers clear directions for building strong brands and keeping
-              them fresh and relevant.
+              Brandkemistry is built on trust our clients have in us. The
+              ultimate goal is to provide every client with that feeling. How do
+              we do it? With a serious approach to work and with the orientation
+              to results.
             </p>
           </div>
           <div className={classes.box}>
             <GrDeliver className={classes.icon} />
-            <h4>Delivering Ideas</h4>
+            <h4>Focus</h4>
             <p>
-              BRANDKEMISTRY delivers the ideas, products and proprietary tools
-              you need to achieve maximum clarity in your message and adapt
-              these to the demands of a changing environment.
+              It’s not easy to describe our team, so we’ll do it with a single
+              word. Focus. It’s our fundamental guiding principle, and it’s
+              enabling us to provide the first-class experience. Just try us.
             </p>
           </div>
           <div className={classes.box}>
             <MdSpeaker className={classes.icon} />
-            <h4>We Amplify</h4>
+            <h4>Turning Things Around</h4>
             <p>
-              We amplify your brand identity and products using factors tailored
-              to your specific needs for a holistic brand experience geared at
-              taking your brand to the next level.
+              Just because everybody does something one way, it doesn’t mean
+              it’s the way to do it. That’s why our slogan is:“Turning things
+              around”. The driving force behind our successful business story is
+              in the strive for providing better results.
             </p>
           </div>
         </div>

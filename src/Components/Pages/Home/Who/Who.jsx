@@ -18,19 +18,18 @@ const Who = () => {
           <h3>Who We Are</h3>
           <h1>We are an integrated Marketing Communications firm</h1>
           <p>
-            BrandKemistry comes with ambitious creative community of talents,
-            providing best solutions OTIF from planning to implementation. We
-            are pleased to introduce our organization and offer ourselves to
-            serve; our definition of service being to grow your business and
-            increase your return on investment (ROI).
+            We're Brandkemistry, a marketing communications agency based in
+            Lagos, Nigeria. We understand the importance of brand's storytelling
+            that is meaningful to its consumers. We get to know them and their
+            target audiences intimately, then we create, develop and communicate
+            brands and their messages in an impactful and engaging way across
+            media touch point.
           </p>
+          <Link to="/about-us">
+            <button className={classes.whoBtn}>Learn More ➡</button>
+          </Link>
         </div>
       </div>
-      <Link to="">
-        <button className={classes.whoBtn} data-aos="fade-down">
-          About Us➡
-        </button>
-      </Link>
     </div>
   );
 };
