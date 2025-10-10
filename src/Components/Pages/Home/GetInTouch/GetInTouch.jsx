@@ -16,11 +16,12 @@ const GetInTouch = () => {
         <img src={group} alt="" />
         <h3>Get In Touch</h3>
         <p className={classes.bold}>
-          Have any questions or enquiries? Send us a message below
+          Have any questions or enquiries? Or you want to work with us? Send us
+          a message below
         </p>
-        <Link to="/contact-us">
-          <button className={classes.groupBtn}>Send a proposal</button>
-        </Link>
+        <a href="mailto:brandkemistry@gmail.com">
+          <button className={classes.groupBtn}>Send a Mail</button>
+        </a>
       </div>
     </div>
   );

@@ -7,10 +7,13 @@ import AboutPage from "./Pages/About/AboutPage";
 import Footer from "./Components/Footer/Footer.jsx"
 import TeamPage from "./Pages/TeamPage/TeamPage.jsx"
 import ContactPage from "./Pages/Contact/ContactPage.jsx";
+import ScrollToTop from "./Components/ScrollToTop/ScrollToTop.jsx";
+
 
 function App() {
   return (
     <BrowserRouter>
+      <ScrollToTop />
       <div className="App">
         <Header />
         <Routes>

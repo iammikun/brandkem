@@ -8,23 +8,16 @@
   margin: 0 auto;
 }
 
-.contentWrapper h3 {
-  text-align: center;
-  text-align: center;
-  color: purple;
-  font-size: 1.7rem;
+.contentWrapper h4 {
+  color: #000000;
+  font-size: 2.2rem;
   font-family: "Poppins", sans-serif;
-  font-size: 1.5rem;
-  font-weight: 400;
+  font-weight: bold;
+  margin-top: 3rem;
 }
 
-.contentWrapper h4 {
+.contentWrapper span {
   color: purple;
-  font-size: 1.7rem;
-  font-family: "Poppins", sans-serif;
-  font-size: 1.2rem;
-  font-weight: 400;
-  margin-top: 3rem;
 }
 
 .contentWrapper p {
@@ -33,6 +26,68 @@
   margin-top: 15px;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
-  width: 95%;
+  width: 70%;
   opacity: 0.7;
+}
+
+.groupBtn {
+  background-color: rgb(186, 184, 184);
+  border: 1px solid purple;
+  border: none;
+  margin: 0 auto;
+  padding: 15px 35px;
+  color: #000;
+  margin-top: 30px;
+  border-radius: 5px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  cursor: pointer;
+  font-size: 1rem;
+  border: 1px solid rgb(42, 42, 42);
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.groupBtn:hover {
+  transition: background-color 0.5s ease;
+  border: 1px solid purple;
+  color: #fff;
+  background-color: purple;
+}
+
+.valueBox {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 3rem;
+  justify-content: center;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.valueBox .box {
+  border: 1px solid rgb(244, 224, 244);
+  box-shadow: 20px 20px 24px rgba(148, 148, 148, 0.08);
+  padding-top: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 2rem;
+  background-color: rgb(240, 237, 240);
+  border-radius: 10px;
+}
+
+.valueBox .box:hover {
+  transform: scale(1.02);
+  filter: brightness(1.1);
+  border: 1px solid rgb(248, 210, 248);
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.valueBox h4 {
+  margin-top: 10px;
+  font-size: 1.4rem;
+}
+
+.valueBox p {
+  width: 100%;
 }
