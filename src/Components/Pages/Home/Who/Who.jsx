@@ -18,7 +18,7 @@ const Who = () => {
           <h3>Who We Are</h3>
           <h1>We are an integrated Marketing Communications firm</h1>
           <p>
-            We're Brandkemistry, a marketing communications agency based in
+            We're BRANDKEMISTRY, a marketing communications agency based in
             Lagos, Nigeria. We understand the importance of brand's storytelling
             that is meaningful to its consumers. We get to know them and their
             target audiences intimately, then we create, develop and communicate

@@ -14,10 +14,10 @@ const AboutContent = () => {
       <div className={classes.contentWrapper}>
         <div>
           <h4>
-            About <span>BrandKemistry</span>
+            About <span>BRANDKEMISTRY</span>
           </h4>
           <p data-aos="fade-down">
-            BrandKemstry is an Integrated Marketing- Communications firm with
+            BRANDKEMISTRY is an Integrated Marketing- Communications firm with
             ambitious creative community of talents, providing best solutions
             OTIF from planning to implementation. We are pleased to introduce
             our organization and offer ourselves to serve; our definition of
@@ -58,9 +58,9 @@ const AboutContent = () => {
             <h4 data-aos="fade-down"> We Amplify</h4>
             <p>
               <p data-aos="fade-down">
-                We amplify your brand identity and products using factors
-                tailored to your specific needs for a holistic brand experience
-                geared at taking your brand to the next level.
+                BRANDKEMISTRY amplify your brand identity and products using
+                factors tailored to your specific needs for a holistic brand
+                experience geared at taking your brand to the next level.
               </p>
             </p>
           </div>
@@ -68,9 +68,9 @@ const AboutContent = () => {
             <h4 data-aos="fade-down">We Disrupt</h4>
             <p>
               <p data-aos="fade-down">
-                Our approach applies disruptive creativity to help brands stand
-                out and occupy lasting space in the minds of customers and
-                recruits.
+                BRANDKEMISTRY approach applies disruptive creativity to help
+                brands stand out and occupy lasting space in the minds of
+                customers and recruits.
               </p>
             </p>
           </div>

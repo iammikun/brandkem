@@ -21,7 +21,7 @@ const Services = () => {
             <MdOutlineSupport className={classes.icon} />
             <h4>First Class Experience</h4>
             <p>
-              Brandkemistry is built on trust our clients have in us. The
+              BRANDKEMISTRY is built on trust our clients have in us. The
               ultimate goal is to provide every client with that feeling. How do
               we do it? With a serious approach to work and with the orientation
               to results.

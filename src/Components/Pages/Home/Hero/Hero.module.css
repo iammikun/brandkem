@@ -1,10 +1,10 @@
 .heroContainer {
   width: 100%;
-  background-image: url(../../../../images/hero.jpg);
+  background-image: url(../../../../images/hero.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  background-color: rgb(104, 40, 104);
+  background-color: rgb(62, 62, 62);
   background-blend-mode: darken;
   height: 90vh;
 }
@@ -27,7 +27,7 @@
 }
 
 .heroWrapper p {
-  color: rgb(185, 185, 185);
+  color: #fff;
   font-family: "Poppins", sans-serif;
   font-size: 1.1rem;
 }

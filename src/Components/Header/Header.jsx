@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import classes from "./Header.module.css";
+import logo from "../../images/LOGO.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -27,8 +28,8 @@ const Header = () => {
       }`}
     >
       <div className={classes.headerWrapper} data-aos="fade-down">
-        <Link to="/">
-          <h3>BrandKemistry</h3>
+        <Link to="/" className={classes.logo}>
+          <img src={logo} alt="" />
         </Link>
         <ul>
           <li>
