@@ -17,11 +17,19 @@ const GetInTouch = () => {
         <h3>Get In Touch</h3>
         <p className={classes.bold}>
           Have any questions or enquiries? Or you want to work with us? Send us
-          a message below
+          a mess age below
         </p>
-        <a href="mailto:brandkemistry@gmail.com">
+        <a
+          href="https://mail.google.com/mail/?view=cm&fs=1&to=brandkemistry@gmail.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <button className={classes.groupBtn}>Send a Mail</button>
         </a>
+
+        {/* <a href="mailto:brandkemistry@gmail.com">
+          <button className={classes.groupBtn}>Send a Mail</button>
+        </a> */}
       </div>
     </div>
   );
