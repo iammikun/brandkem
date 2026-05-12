@@ -221,6 +221,7 @@ const TeamCarousel = () => {
       </div>
     </section>
   );
+  
 };
 
 export default TeamCarousel;
