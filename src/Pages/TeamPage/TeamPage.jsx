@@ -1,14 +1,16 @@
 import React from "react";
 import TeamHero from "../../Components/Pages/Team/TeamHero/TeamHero";
-import TeamContent from "../../Components/Pages/Team/TeamContent/TeamContent";
+import TeamCarousel from "../../Components/Pages/Home/Team/TeamCarousel/TeamCarousel";
+
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 
 const TeamPage = () => {
   return (
     <div>
-      <div>
-        <TeamHero />
-        <TeamContent />
-      </div>
+      <TeamHero />
+      <TeamCarousel />
     </div>
   );
 };

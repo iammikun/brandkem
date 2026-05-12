@@ -1,20 +1,45 @@
-import React, { useEffect } from "react";
-import classes from "./TeamHero.module.css";
-import AOS from "aos";
-import "aos/dist/aos.css";
+import React from "react";
+import "./TeamHero.css";
+import teamBg from "../../../../images/teambg.png";
 
 const TeamHero = () => {
-  useEffect(() => {
-    AOS.init({ duration: 1500 });
-  }, []);
-
   return (
-    <div className={classes.teamHeroContainer}>
-      <div className={classes.teamHeroWrapper} data-aos="fade-right">
-        <h1>Our Team</h1>
-        <p>Home - Our Team</p>
+    <section
+      className="team-hero"
+      style={{ backgroundImage: "url(" + teamBg + ")" }}
+    >
+      <div className="team-hero-overlay" />
+
+      <div
+        className="team-hero-content"
+        data-aos="fade-left"
+        data-aos-duration="1400"
+      >
+        <p
+          className="team-hero-breadcrumb"
+          data-aos="fade-left"
+          data-aos-delay="200"
+        >
+          Home - Team
+        </p>
+
+        <h1
+          className="team-hero-title"
+          data-aos="fade-left"
+          data-aos-delay="300"
+        >
+          Meet Our Team
+        </h1>
+
+        <p
+          className="team-hero-sub"
+          data-aos="fade-left"
+          data-aos-delay="500"
+        >
+          Thinkers · Strategists · Designers · Activations
+        </p>
       </div>
-    </div>
+    </section>
   );
 };
 

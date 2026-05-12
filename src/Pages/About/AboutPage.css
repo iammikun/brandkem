@@ -1,0 +1,176 @@
+.about-page {
+  min-height: 100vh;
+}
+
+/* ── Hero ── */
+.about-hero {
+  position: relative;
+  height: 60vh;
+  min-height: 340px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: flex-end;
+}
+
+.about-hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(rgba(60, 20, 60, 0.65), rgba(60, 20, 60, 0.65));
+}
+
+.about-hero-content {
+  position: relative;
+  z-index: 1;
+  padding: 0 6% 4rem;
+  width: 100%;
+}
+
+.about-hero-breadcrumb {
+  font-family: 'Poppins', sans-serif;
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.75);
+  margin-bottom: 0.5rem;
+  letter-spacing: 0.04em;
+}
+
+.about-hero-title {
+  font-family: 'Poppins', sans-serif;
+  font-size: clamp(36px, 5vw, 56px);
+  font-weight: 800;
+  color: #fff;
+  line-height: 1.15;
+}
+
+/* ── Shared layout ── */
+.about-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 6%;
+}
+
+.about-tag {
+  display: inline-block;
+  background: rgba(60, 32, 96, 0.08);
+  color: #3C2060;
+  padding: 4px 16px;
+  border-radius: 30px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+.about-section-title {
+  font-family: 'Poppins', sans-serif;
+  font-size: clamp(26px, 3.5vw, 38px);
+  font-weight: 700;
+  color: #1a0a2e;
+  margin-bottom: 1.25rem;
+  line-height: 1.2;
+}
+
+.about-accent {
+  color: #3C2060;
+}
+
+/* ── Who we are ── */
+.about-who {
+  padding: 5rem 0;
+}
+
+.about-body-text {
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  color: #555;
+  line-height: 1.85;
+  max-width: 780px;
+  margin-bottom: 1.25rem;
+}
+
+.about-cta-btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 12px 32px;
+  background: rgb(186, 184, 184);
+  color: #1a0a2e;
+  border: 1px solid rgb(42, 42, 42);
+  border-radius: 8px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.about-cta-btn:hover {
+  background: #3C2060;
+  border-color: #3C2060;
+  color: #fff;
+}
+
+/* ── Divider ── */
+.about-divider {
+  border: none;
+  border-top: 1px solid rgba(60, 32, 96, 0.1);
+  margin: 0 6%;
+}
+
+/* ── Core values ── */
+.about-values {
+  padding: 5rem 0;
+}
+
+.about-values-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.about-value-card {
+  background: rgba(60, 32, 96, 0.04);
+  border: 1px solid rgba(60, 32, 96, 0.1);
+  border-radius: 16px;
+  padding: 1.75rem;
+  transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.about-value-card:hover {
+  transform: translateY(-4px);
+  border-color: rgba(60, 32, 96, 0.3);
+  box-shadow: 0 8px 24px rgba(60, 32, 96, 0.08);
+}
+
+.about-value-title {
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: #1a0a2e;
+  margin-bottom: 0.75rem;
+}
+
+.about-value-desc {
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  color: #666;
+  line-height: 1.75;
+}
+
+/* ── Responsive ── */
+@media (max-width: 800px) {
+  .about-values-grid {
+    grid-template-columns: 1fr;
+  }
+  .about-hero {
+    height: 50vh;
+  }
+}
+
+@media (max-width: 560px) {
+  .about-hero-content {
+    padding: 0 5% 3rem;
+  }
+}

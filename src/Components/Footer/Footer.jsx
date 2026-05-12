@@ -39,7 +39,7 @@ const Footer = () => {
       </div>
       <hr />
       <p className={classes.copy}>
-        2024 © BrandKemistry, All rights reserved .
+        2026 © BrandKemistry, All rights reserved .
       </p>
     </div>
   );

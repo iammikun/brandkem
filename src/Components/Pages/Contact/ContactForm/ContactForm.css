@@ -1,0 +1,197 @@
+.bk-contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin-bottom: 0;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-bottom: 1.1rem;
+}
+
+.form-group label {
+  font-family: 'Poppins', sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  color: #444;
+}
+
+.required {
+  color: #ff6b35;
+}
+
+.form-group input,
+.form-group textarea,
+.form-group select {
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  color: #1a0a2e;
+  background: #fff;
+  border: 1.5px solid rgba(60, 32, 96, 0.18);
+  border-radius: 8px;
+  padding: 11px 14px;
+  outline: none;
+  transition: border-color 0.2s, box-shadow 0.2s;
+  width: 100%;
+}
+
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+  color: #bbb;
+}
+
+.form-group input:focus,
+.form-group textarea:focus,
+.form-group select:focus {
+  border-color: #3C2060;
+  box-shadow: 0 0 0 3px rgba(60, 32, 96, 0.08);
+}
+
+.form-group textarea {
+  resize: vertical;
+  min-height: 120px;
+  line-height: 1.6;
+}
+
+.form-group select {
+  cursor: pointer;
+  appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%233C2060' stroke-width='1.5' fill='none' stroke-linecap='round'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 14px center;
+  padding-right: 36px;
+}
+
+/* Error states */
+.form-group.has-error input,
+.form-group.has-error textarea {
+  border-color: #cc3333;
+  box-shadow: 0 0 0 3px rgba(204, 51, 51, 0.08);
+}
+
+.error-msg {
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+  color: #cc3333;
+}
+
+/* Submit button */
+.bk-submit-btn {
+  width: 100%;
+  padding: 14px;
+  background: #3C2060;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.15s;
+  margin-top: 0.5rem;
+}
+
+.bk-submit-btn:hover:not(:disabled) {
+  background: #2d1555;
+  transform: translateY(-1px);
+}
+
+.bk-submit-btn.loading {
+  background: #6a5080;
+  cursor: not-allowed;
+}
+
+.bk-submit-btn:active:not(:disabled) {
+  transform: translateY(0);
+}
+
+.loading-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+}
+
+.dots::after {
+  content: '...';
+  animation: dotAnim 1.2s steps(4, end) infinite;
+  width: 1.5em;
+  display: inline-block;
+}
+
+@keyframes dotAnim {
+  0%   { content: ''; }
+  25%  { content: '.'; }
+  50%  { content: '..'; }
+  75%  { content: '...'; }
+}
+
+.bk-btn-secondary {
+  padding: 11px 24px;
+  background: transparent;
+  color: #3C2060;
+  border: 1.5px solid rgba(60,32,96,0.35);
+  border-radius: 8px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.2s;
+  margin-top: 1rem;
+}
+
+.bk-btn-secondary:hover {
+  background: rgba(60,32,96,0.06);
+  border-color: #3C2060;
+}
+
+/* Success state */
+.contact-success {
+  text-align: center;
+  padding: 3rem 1.5rem;
+}
+
+.success-icon {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background: rgba(29,158,117,0.1);
+  color: #1d9e75;
+  font-size: 28px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 1.25rem;
+  border: 1.5px solid rgba(29,158,117,0.25);
+}
+
+.contact-success h3 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: #1a0a2e;
+  margin-bottom: 0.75rem;
+}
+
+.contact-success p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  color: #666;
+  line-height: 1.7;
+}
+
+@media (max-width: 580px) {
+  .form-row {
+    grid-template-columns: 1fr;
+  }
+}

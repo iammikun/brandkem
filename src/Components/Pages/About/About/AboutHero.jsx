@@ -1,20 +1,39 @@
-import React, { useEffect } from "react";
-import classes from "./AboutHero.module.css";
-import AOS from "aos";
-import "aos/dist/aos.css";
+import React from "react";
+import "./AboutHero.css";
+import aboutBg from "../../../../images/aboutbg.png";
 
 const AboutHero = () => {
-  useEffect(() => {
-    AOS.init({ duration: 1500 });
-  }, []);
-
   return (
-    <div className={classes.aboutHeroContainer}>
-      <div className={classes.aboutHeroWrapper} data-aos="fade-right">
-        <h1>About Us</h1>
-        <p>Home - About</p>
+    <section
+      className="about-hero"
+      style={{ backgroundImage: "url(" + aboutBg + ")" }}
+    >
+      <div className="about-hero-overlay" />
+
+      <div
+        className="about-hero-content"
+        data-aos="fade-left"
+        data-aos-duration="1400"
+      >
+        <p
+          className="about-hero-breadcrumb"
+          data-aos="fade-left"
+          data-aos-delay="200"
+        >
+          Home - About
+        </p>
+
+        <h1
+          className="about-hero-title"
+          data-aos="fade-left"
+          data-aos-delay="300"
+        >
+          About Us
+        </h1>
+
+        
       </div>
-    </div>
+    </section>
   );
 };
 
